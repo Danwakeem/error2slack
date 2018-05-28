@@ -1,4 +1,6 @@
 # Error2Slack
+[![Build Status](https://travis-ci.org/Danwakeem/error2slack.svg?branch=master)](https://travis-ci.org/Danwakeem/error2slack)
+[![Coverage Status](https://coveralls.io/repos/github/Danwakeem/error2slack/badge.svg?branch=master)](https://coveralls.io/github/Danwakeem/error2slack?branch=master)
 
 ## Installation
 ```
