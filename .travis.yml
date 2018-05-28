@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '7'
+before_script:
+- npm install -g mocha
+- npm install -g istanbul
+script: npm run travis
+deploy:
+  provider: npm
+  email: danwakeem@gmail.com
+  api_key:
+    secure: g0/NzaY0zZcgnWsWpvN7EnWK9NbWEGndVdOUIiHAEzLqWmDOsIta/F3QKg9p3+QTkeLHRpgldlKQgdeyeqcwTXhX29RTT7NVNrfrghwa++OB27c2new8i8pa+qOt5xyrtul80V1OCOygvEU3iX0EC1trDWU/cX0RmmDoB8cyVV0OLWetENVn/erPnMEC+TpNIHMgVplVM8rllnGoSGSCJJkdr6cEAmGJHZ2FGAkx0L6gM/e5uSYNwDpJ1SL9Fp6xjqR+Sggi4/N33BehKi5k5ioIEIoM/JaY1Lmml0fwaTY6zr3ag9iD5UIOIoRsuzM/3Z92gJNLFD2DzuHwC5KCuKYHnTTWvvfLYKLdcOatubW6QTFhFROsLeKmBSCxvZIyr8X7Os0UAVSgvq+5qwilrJoBlSPdfOCRyOUPcgmzo2i5FPovIOWg7UnKVmXqRCR54GwKKEmJ1YWgYhJslMn7qbG+O901ha2zwK+5atoRoHJcitFGEBNyPGLvxL7mGHpMiUziyuD7qAjiXjCpnrlhuJhyQ/0OvH2J0oRL6kQ66rOThiDelpH3ZhAjm6CTJk716cfYsx3Wfjeqszz36w3nu1T+yaqw6hSGkdcOjh+oEF8Yzc0B7rm3+aeAhZEJVjwyFLSSZsLnPbadRr9o9jOvqUbAOK+jy4BlqE8aFejO4ho=
+  on:
+    repo: Danwakeem/error2slack
